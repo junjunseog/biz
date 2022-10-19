@@ -1,20 +1,91 @@
-@font-face {
-    font-family: 'EarlyFontDiary';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
+    * {
+        font-family: "맑은 고딕", Arial, Helvetica, sans-serif;
+    }
 
+    header, footer {
+        height: 100px;
+    }
 
-#nav {
-    list-style-type: circle;
-    font-family: 'EarlyFontDiary';
-}
+    header h1 {
+        display: inline;
+    }
 
-.box {
-    text-align: center;
-}
+ /*내부   body {
+        margin-top: 20px;
+        margin: 0 auto;
+        max-width: 980px;
+    }
+*/
+    footer {
+        background-color: gray;
+    } 
 
-.link {
-    text-decoration: none;
-}
+    nav {
+        height: 50px;
+    }
+/* 내부
+    section {
+        display: flex;
+        margin-top: 32px;
+    }
+
+    .content {
+        flex:4;
+    }
+
+    aside {
+        flex:2;
+    }
+*/
+    ul {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    nav ul li {
+        display: inline;
+        padding: 15px 20px;
+        letter-spacing: 5px;
+    }
+
+    nav ul li:hover {
+        background-color: red;
+    }
+
+    nav ul {
+        border-top: 2px solid red;
+        border-bottom: 2px solid red;
+        padding: 15px 20px;
+        text-align: center;
+    }
+
+    .bigdata {
+        display: block;
+        padding-top: 50px;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .action {
+        width: 100%;
+        font-size: 1.2em;
+        border: 0px;
+        margin: 0px auto;
+    }
+
+    .action table th {
+        background-color: green;
+    }
+
+    video, iframe {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+   .box {
+    width: 90%;
+    margin: 0px auto;
+   }
