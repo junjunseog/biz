@@ -20,6 +20,11 @@
         background-color: gray;
     } 
 
+    body {
+        max-width: 980px;
+        margin: auto;
+    }
+    
     nav {
         height: 50px;
     }
